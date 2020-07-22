@@ -1,0 +1,67 @@
+body{
+  background: url(24974.jpg);
+
+  left: 0;
+	top: 0;
+	right: 0%;
+	bottom: 0%;
+  background-size: cover;
+  padding-bottom: 0;
+}
+
+.wrapper {
+  padding: 0px 0px;
+  padding-top: 250px;
+ 
+}
+
+.image--cover {
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+}
+.image--cover:hover {
+ 
+  box-shadow: rgba(255, 7, 81, 0.89) 0 5px 5px 0;
+  -webkit-box-shadow: rgb(0, 60, 255) 0 5px 6px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+}
+
+/* +++++++ hove play video +++++++++++++ */
+
+
+.kasi{
+  
+  border-bottom-style: groove;
+  width: 70px;
+  height: 70px;
+  border-radius: 500%;
+  margin: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+  
+}
+
+
+
+#videosList {
+ max-height:100%; 
+  overflow: hidden;
+  padding-left: 100px;
+}
+
+
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+/* +++++++++ popup +++++++++ */
